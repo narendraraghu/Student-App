@@ -1,9 +1,12 @@
-package net.techtter.demo.student.entity;
+package com.student.entity;
+
+import lombok.AllArgsConstructor;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "student")
+@AllArgsConstructor
 public class Student {
 
     @Id

@@ -1,6 +1,6 @@
-package net.techtter.demo.student.repository;
+package com.student.repository;
 
-import net.techtter.demo.student.entity.Student;
+import com.student.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentRepository extends JpaRepository<Student, Long> {
